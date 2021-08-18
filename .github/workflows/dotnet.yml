@@ -21,7 +21,7 @@ jobs:
   - name: Test
     run: dotnet test -c Release
   
-deploy-app:
+ deploy-app:
   runs-on: ubuntu-latest
   steps:
   - name: 'Run Azure webapp deploy action using publish profile credentials'
