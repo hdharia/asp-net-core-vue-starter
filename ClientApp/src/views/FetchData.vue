@@ -3,7 +3,7 @@
     <v-slide-y-transition mode="out-in">
       <v-row>
         <v-col>
-          <h1>My Weather forecast</h1>
+          <h1>NAVSEA Weather forecast</h1>
           <p>This component demonstrates fetching data from the server.</p>
 
           <v-data-table
