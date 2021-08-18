@@ -10,6 +10,6 @@ steps:
 uses: actions/setup-dotnet@v1.4.0  
 with:  
   dotnet-version: 3.1.101  
-    - run: dotnet build -c Release
-    - run: dotnet test -c Release  
-    - run: dotnet publish -c Release -o mercuryhealth-web  
+    - run:dotnet build -c Release
+    - run:dotnet test -c Release  
+    - run:dotnet publish -c Release -o mercuryhealth-web  
