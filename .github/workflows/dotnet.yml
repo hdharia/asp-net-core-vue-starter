@@ -6,7 +6,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
 
 jobs: 
- build:  
+ build-deploy-app:  
   runs-on: ubuntu-latest  
   steps:  
   - uses: actions/checkout@v1  
@@ -21,9 +21,6 @@ jobs:
   - name: Test
     run: dotnet test -c Release
   
- deploy-app:
-  runs-on: ubuntu-latest
-  steps:
   - name: 'Run Azure webapp deploy action using publish profile credentials'
     uses: azure/webapps-deploy@v2
     with: 
