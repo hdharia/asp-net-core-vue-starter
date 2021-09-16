@@ -10,7 +10,7 @@
     <v-slide-y-transition mode="out-in">
       <v-row>
         <v-col>
-          <h1 class="headline">Hello, world!</h1>
+          <h1 class="headline">Hello, NPS!</h1>
           <p>Welcome to your new single-page application, built with:</p>
           <ul>
             <li>
